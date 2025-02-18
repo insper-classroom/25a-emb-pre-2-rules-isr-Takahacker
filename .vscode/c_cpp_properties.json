@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include",
+                "/Users/takahashi/ASF/sam",
+                "/Users/takahashi/ASF/xmega",
+                "/Users/takahashi/ASF/mega",
+                "/Users/takahashi/ASF/avr32"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
