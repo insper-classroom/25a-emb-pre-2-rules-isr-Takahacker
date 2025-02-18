@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 
-
 volatile int btn_flag = 0;
 
 // This code creates a progress bar on an OLED screen that
