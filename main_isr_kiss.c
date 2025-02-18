@@ -1,8 +1,7 @@
 #include "asf.h"
 #include <stdio.h>
 
-int g_cnt = 0;
-char g_str[10];
+
 
 volatile int btn_flag = 0;
 
@@ -14,7 +13,8 @@ void btn_callback(void) {
 
 
 void main(void) {
-  
+  int g_cnt = 0;
+  char g_str[10];
   if (g_cnt >= 8)
     g_cnt = 0;
 
